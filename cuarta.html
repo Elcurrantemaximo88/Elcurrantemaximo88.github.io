@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="index 2 pagina web.html" onclick="w3_close()"
+  class="w3-bar-item w3-button">Pagina principal</a>
+
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">Artes que practico</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="imagenes/eloysa.jpg" alt="Sandwich" style="width:100%">
+      <h3>Fotografia</h3>
+      <p>Yo mayormente me dedico a la fotografia de paisajes como podeis ver en la pagina principal la foto de aqui arriba es un bonito ejemplo pero tambien hago muchos mas tipos de arte que podeis ver aqui.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/retra.jpg" alt="Steak" style="width:100%">
+      <h3>Retratos</h3>
+      <p>Aun que mucha gente piensa que hacer un retrato a una persona o animal es lo mismo que hacer una simple foto no es asi ya que en el retrato tienes que centrarte en que el interceptor de la foto vea primero la cara del personaje y luego despues de haberse centrado en eso mire el fondo. Aqui arriba os dejo un buen retrato que le hize a mi padre </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/lol.jpg" alt="Cherries" style="width:100%">
+      <h3>Pintura</h3>
+      <p>Este cuadro que veis aqui fue la primera obra de este estilo que vendi en una subasta en el municipio de Peniche y desde aquel cuadro he seguido pintando lo que se me viene a la cabeza.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/cark.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Cocina culinaria</h3>
+      <p>Hace tiempo cuando solo era un a la Fotografia tuve que trabajar durante un tiempo en un restaurante para pagarme una camara y la verdad que no se me daba nada mal, la foto de arriba la hice con mi camara que me compre.</p>
+    </div>
+  </div>
+ 
+
+  <!-- Pagination -->
+
+  <!-- About Section -->
+  
+  <!-- Footer -->
+
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
